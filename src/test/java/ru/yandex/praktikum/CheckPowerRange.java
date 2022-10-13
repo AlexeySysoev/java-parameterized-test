@@ -36,7 +36,7 @@ public class CheckPowerRange {
     public void CheckPowerRangeDiff(){
         Program transport = new Program();
         int actual = transport.powerRange(typeOfTransport, horsePower);
-        assertEquals("Здесь ошибка", result, actual);
+        assertEquals("Здесь ошибка, должен быть" + result + "а вышло:" +actual+" :", result, actual);
 
     }
 
