@@ -10,6 +10,7 @@ public class Program {
         return false;
     }
 
+    //test 2
     public int powerRange (String typeOfTransport, int horsePower) {
         if (typeOfTransport == "Truck" && horsePower < 500) {
             return 100;
